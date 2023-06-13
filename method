@@ -1,0 +1,32 @@
+'''class myclass:
+    def __init__(self, a, b):
+        self.a=a
+        self.b=b
+    def result(self):
+        self.x=(self.a+self.b)/2
+        print(self.x)
+
+c1 = myclass(4,4)
+c1.result()'''
+'''class Employee:
+    org_name= "google"
+    def __init__(self, name):
+        self.name= name
+
+
+    @classmethod
+    def info(cls):
+        return "this is tohid", cls.org_name
+
+
+Employee.info()'''
+class Employee:
+    def __init__(self, name):
+        self.name= name
+
+
+    @staticmethod
+    def detail():
+        print("this is an employee class")
+
+Employee.detail()
